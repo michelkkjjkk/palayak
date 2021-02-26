@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+}
+body{
+  background-color: beige;
+  color: rgba(141, 141, 141, 0.692);
+}
+.header{
+    background: rgb(243, 236, 203);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    
+}
+.logo img{
+    width: 100px;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+
+}
+header a {
+    color: black;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'MuseoModerno', cursive;
+    color: black;
+}
+.header li{
+    height: inherit;
+}
+.menu{
+    height: inherit;;
+}
+.principal{
+    background-color: rgb(9, 49, 79);
+    color: whitesmoke;
+    text-align: center;
+    padding:  120px;
+    margin: 100px;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+
+.secundaria{
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 200px;
+    margin: 100px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 50px;
+    background-color: rgb(9, 49, 79);
+}
+
+.tercera{
+    background-size: cover;
+    color: #008080;
+    text-align: center;
+    padding: 50px  200px;
+    margin:  100px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30px;
+    background-color: rgb(9, 49, 79);
+}
+.principal img{
+    width: 300px;
+}
+
+.principal h1 strong{
+    color: teal;    
+}
+.boton {
+    width: 250px;                           
+    height: 40px;
+    background: teal;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    font-family: 'MuseoModerno', cursive;
+    cursor: pointer;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+.secundaria h2 strong{
+    color: teal;
+}
+.tercera h1 strong{
+    color: rgb(15, 155, 155);
+}
+.tercera h1{
+    color: white;
+}
+.secundaria h1{
+     color: white;
+}
+.secundaria h2{
+  margin-bottom: 0px;
+}
+.secundaria p{
+margin-bottom: 0px;
+}
+.lolo{
+   height: 500px;
+   display: flex;
+   color: white;
+   background-size: cover;
+   margin: 100px;
+   padding: 50px 200px;
+   font-family: 'MuseoModerno', cursive;
+   background-color: rgb(9, 49, 79);
+}
+.lo{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lo img{
+    height: 90%;
+}
+.lo h2 strong{
+color: teal;
+}
+.lo h2{
+    font-size: 60px;
+}
+.lo p strong{
+    color: teal;
+}
+.principal h5 strong{
+    color: teal;
+}
+.negocio{
+    background: rgb(9, 49, 79);
+    color: whitesmoke;
+    text-align: center;
+    padding:  120px;
+    margin: 100px;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+    
+}
+.negocio h1 strong{
+    color: teal;
+}
+.negocio h3 strong{
+    color: teal;
+}
+.secundaria p strong{
+    color: teal;
+}
+.principal p strong{
+    color: teal;
+}
+
+.principal h6 strong{
+    color: teal;
+}
+.lolo h4 strong{
+    color: teal;
+}
+.negocio h1 strong{
+    color: teal;
+}
+.container1{
+    background-color: rgb(9, 49, 79);
+    color: silver;
+    display: flex; 
+    justify-content: space-around;
+    padding: 20px 20px  ;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.col1-container{
+    width: 400px;
+}
+.col2-container{
+    width: 200px;
+}
+.row1-contactoimg{
+    width: 35px;
+    height: 25px;
+}
+.container2{
+    background-color: slategray;
+}
+.col2-container{
+    text-decoration: none;
+    list-style: none;
+}
+.lk strong {
+    color: teal;
+} 
+.lk {
+    background-color: rgb(9, 49, 79);
+    color: whitesmoke;
+    text-align: center;
+    padding: 120px;
+    margin: 100px;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+.jaja-xdd strong{
+    color: teal;
+}
+.jaja-xdd {
+    background-color: rgb(9, 49, 79);
+    color: whitesmoke;
+    text-align: center;
+    padding: 120px;
+    margin: 100px;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+.hahahhaha{
+    background-color: rgb(9, 49, 79);
+    color: whitesmoke;
+    text-align: center;
+    padding: 120px;
+    margin: 100px;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+.boton:hover {
+    background-color:#50C878;
+    transition:  1s;
+}
